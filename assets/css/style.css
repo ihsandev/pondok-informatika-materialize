@@ -1,0 +1,163 @@
+.nav-wrapper img{
+	padding-top: 10px;
+}
+
+nav ul a{
+	color: #628d96;
+}
+nav ul a:hover{
+	background-color: #628d96;
+	color: #fff;
+}
+
+ul.collapsible li{
+	margin-bottom: 2px;
+}
+
+.collapsible-header{
+	background-color: #628d96;
+	color: #fff;
+}
+
+.active-nav{
+	background-color: #628d96;
+	color: #fff;
+}
+
+nav a.sidenav-trigger{
+	color: #628d96;
+}
+
+.circle{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+section.about,
+section.testimoni,
+section .content-contact{
+	transform: translate(0,-80px);
+	transition: 0.7s;
+	opacity: 0;
+}
+
+.about .cp_1, .cp_2{
+	transition: 0.7s;
+}
+
+.about .cp_1{
+	transform: translateX(-100px);
+}
+
+.about .cp_2{
+	transform: translateX(100px);
+}
+
+
+.testimoni .testi-1,
+		   .testi-2,
+		   .testi-3{
+
+	transition: 0.8s;
+}
+
+.testimoni .testi-1{
+	transform: translateX(-100px);
+}
+
+.testimoni .testi-3{
+	transform: translateX(100px);
+}
+
+
+.tabs .tab a{
+	color: #628d96;;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active{
+	background-color: transparent;
+	color: orange;
+}
+
+section{
+	min-height: 500px;
+}
+
+.contact{
+	padding-bottom: 1px;
+	background-color: #ededed;
+}
+
+section h3{
+	padding-top: 20px;
+}
+
+.karya{
+	background-color: #628d96;
+}
+
+.img-testimoni{
+	border : 3px solid #fff;
+	border-radius: 50%;
+}
+
+.testimoni-card{
+	font-size: 12px;
+	border-bottom-right-radius: 50px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+}
+
+.page-footer{
+	background-color: #628d96;
+}
+
+/*blog pondok*/
+
+.parallax-container{
+	height: 450px;
+	background: linear-gradient(to right, rgba(52, 159, 186, 0.8) , rgba(255, 123, 0,0.5));
+
+}
+
+.header-blog{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 12%;
+	filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.8));
+}
+
+.news{
+	background-color: #ededed;
+}
+
+/*======*/
+
+
+/*formulir*/
+
+.pendaftaran{
+	background-color: #eaeaea;
+}
+
+.formulir{
+	margin-top: 50px;
+}
+
+.form_header{
+	width: 50%;
+	padding: 5px;
+	border-top-right-radius: 50px;
+}
+
+/*==========*/
+
+/*Detail*/
+
+section.detail{
+	margin-top: 50px;
+}
+
+
+/*-----*/
